@@ -1,0 +1,3 @@
+import Link from "next/link";
+export const metadata = { title: "Available Rentals" };
+export default function Rentals(){return (<><section className="page-hero"><div className="container"><p className="eyebrow">Available Rentals</p><h1>Find your next home.</h1><p>Current listings will appear here as properties become available.</p></div></section><section className="section"><div className="container empty-state"><div className="key-mark">PK</div><h2>No public listings at this time</h2><p>Contact our leasing team to ask about upcoming availability in Winnipeg and surrounding areas.</p><Link href="/contact" className="button button-navy">Contact Leasing</Link></div></section></>)}
